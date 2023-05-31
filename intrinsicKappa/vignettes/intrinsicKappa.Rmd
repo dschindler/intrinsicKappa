@@ -1,0 +1,33 @@
+---
+title: "Get started with intrinsicKappa"
+author: 'David Schindler, R. Sanchez-Marquez and F. Gerhorst '
+date: "`r Sys.Date()`"
+output:
+  html_document: default
+  pdf_document: default
+vignette: >
+  %\VignetteIndexEntry{Get started with intrinsicKappa}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Working with intrinsicKappa
+
+The **intrinsicKappa** package provides functions for the computation of the intrinsic kappa value.
+```{r example}
+library(intrinsicKappa)
+
+M <- matrix(c(2375, 25, 10, 2390), ncol = 2)
+rownames(M) <- c('ok-rating', 'nok-rating')
+colnames(M) <- c('ok-standard', 'nok-standard')
+alpha <- 0.05
+alpha_adjusted <- FALSE
+intrinsicKappa(M, alpha, alpha_adjusted)
+```
+
+

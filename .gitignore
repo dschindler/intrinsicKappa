@@ -47,3 +47,16 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Excel files
+*.xlsx
+
+# PDF files
+*.pdf
+
+# Archive
+archive/
+
+*/.Rproj.user
+*/doc/
+*/Meta/

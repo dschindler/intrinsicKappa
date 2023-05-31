@@ -1,0 +1,18 @@
+bibentry(bibtype = "Article",
+  title        = "Effectiveness of quality inspections of attributive characteristics – A novel and practical method for estimating the “intrinsic” value of kappa based on alpha and beta statistics",
+  author       = c(person(given = "Rafael",
+                          family = "Sanchez-Marquez",
+                          email = "rsanch18@ford.com"),
+                   person(given = "Frank",
+                          family = "Gerhorst"),
+                   person(given = "David",
+                          family = "Schindler")),
+  journal      = "Computers & Industrial Engineering",
+  year         = "2023",
+  volume       = "176",
+  pages        = "109006",
+  doi          = "10.1016/j.cie.2023.109006",
+
+  header       = "To cite intrinsicKappa R package in publications use:"
+)
+

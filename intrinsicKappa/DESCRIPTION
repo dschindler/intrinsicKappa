@@ -1,0 +1,30 @@
+Package: intrinsicKappa
+Title: Sample Size Planning Based on Intrinsic Kappa Value
+Version: 0.1
+Authors@R: 
+  c(person(given = "David",
+           family = "Schindler",
+           role = c("aut", "cre"),
+           email = "dv.schindler@gmail.com"),
+    person(given = "Rafael",
+           family = "Sanchez-Marquez",
+           role = "aut"),
+    person(given = "Frank",
+           family = "Gerhorst",
+           role = "aut"))
+Maintainer: David Schindler <dv.schindler@gmail.com>
+Description: Providing functions for the computation of the intrinsic kappa value.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: 
+    R (>= 4.2.0)
+Imports: 
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    utils
+VignetteBuilder: 
+    knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
